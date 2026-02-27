@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio project",
+  "main": "vite.config.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "rimraf dist && vite build",
+    "preview": "vite preview"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss-pxtorem": "^6.1.0",
+    "sass": "^1.84.0",
+    "vite": "^6.1.0",
+    "vite-plugin-imagemin": "^0.6.1",
+    "rimraf": "^6.0.1"
+  },
+  "dependencies": {
+    "just-validate": "^4.3.0",
+    "swiper": "^12.0.3"
+  }
+}
