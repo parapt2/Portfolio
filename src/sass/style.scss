@@ -1,7 +1,7 @@
 
 
 @use "/src/sass/base/basic.scss";
-@use "/src/sass/base/variables.scss";
+@use "/src/sass/base/variables.scss" as *;
 
 @use "/src/sass/pxtorem.scss" as *;
 
@@ -13,6 +13,7 @@
 @use "/src/sass/blocks/button.scss";
 @use "/src/sass/blocks/sidepanel.scss";
 @use "/src/sass/blocks/menu.scss";
+@use "/src/sass/blocks/about.scss";
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
 
@@ -26,4 +27,11 @@
     width: 1140px;
     padding-left: 70px;
     margin: 0 auto;
+}
+
+.divider {
+    width: 60px;
+    height: 3px;
+    background-color: $main-color;
+    margin-top: 25px;
 }
