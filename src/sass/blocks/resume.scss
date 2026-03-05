@@ -94,16 +94,35 @@
 
         &-icon {
             position: absolute;
-            top: 50px;
+            top: 59px;
             left: 45px;
+            width: 36px;
+            height: 36px;
             @include before_circle;
 
             img {
                 position: absolute;
                 left: 17px;
-                top: 14px;
+                top: 5px;
             }
         }
+
+        // &-icon {
+        //     position: absolute;
+        //     top: 50px;
+        //     left: 45px;
+
+        //     width: 36px;
+        //     height: 36px;
+        //     border-radius: 50%;
+        //     background: $main-color;
+
+        //     img {
+        //         position: absolute;
+        //         left: 17px;
+        //         top: 14px;
+        //     }
+        // }
 
         &-location {
             font-size: 12px;
