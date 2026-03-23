@@ -121,5 +121,12 @@
             text-decoration: none;
             box-shadow: 2px 8px 8px 0 rgba(0, 0, 0, 0.15);
         }
+
+        &:active {
+            background-color: $main-color-dark;
+            color: #fff;
+            border: none;
+            outline: none;
+        }
     }
 }

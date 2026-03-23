@@ -109,6 +109,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        a:nth-child(2) svg {
+            transform: translateY(-1px);
+        }
     }
 
     &__overlay {
