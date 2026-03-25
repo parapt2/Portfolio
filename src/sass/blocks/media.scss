@@ -175,7 +175,7 @@
     .about {
         padding-top: 60px;
 
-        &__wrapper {  
+        &__wrapper {
             grid-template: 400px auto auto / 1fr;
         }
 
@@ -365,6 +365,16 @@
             width: 180px;
             margin: 0 auto;
             line-height: 18px;
+        }
+    }
+
+    .policy {
+        margin-top: 40px;
+
+        &__text {
+            margin-top: 40px;
+            padding: 0 15px 15px 15px;
+            width: 100%;
         }
     }
 }
