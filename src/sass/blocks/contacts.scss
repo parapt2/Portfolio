@@ -111,15 +111,19 @@
     }
 
     &__btn {
-        border: none;
+        // border: none;
+        border: solid $main-color 2px;
         font-weight: bold;
         font-size: 14px;
-        line-height: 21px;
+        line-height: 14px;
 
         &:hover {
-            color: #000;
+            // color: #000;
+            color: $main-color-dark;
+            background-color: transparent;
+            border: solid $main-color-dark 2px;
             text-decoration: none;
-            box-shadow: 2px 8px 8px 0 rgba(0, 0, 0, 0.15);
+            // box-shadow: 2px 8px 8px 0 rgba(0, 0, 0, 0.15);
         }
 
         &:active {

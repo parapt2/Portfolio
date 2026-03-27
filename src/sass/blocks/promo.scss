@@ -31,11 +31,15 @@
         color: #000;
         font-weight: 700;
         padding: 12px 25px;
+        border: solid transparent 2px;
 
         &:hover {
-            color: #000;
+            // color: #000;
+            color: $main-color-dark;
+            background-color: transparent;
+            border: solid $main-color-dark 2px;
             text-decoration: none;
-            box-shadow: 2px 8px 8px 0 rgba(0, 0, 0, 0.15);
+            // box-shadow: 2px 8px 8px 0 rgba(0, 0, 0, 0.15);
         }
 
         &:active {

@@ -181,6 +181,10 @@
 
         &__photo {
             grid-row: unset;
+
+            img {
+                object-position: 50% 20%;
+            }
         }
 
         &__skills {

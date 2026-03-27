@@ -6,8 +6,10 @@
     &__wrapper {
         display: grid;
         grid-template-columns: 400px 670px;
-        grid-template-rows: minmax(245px, auto) minmax(255px, auto);
-        grid-auto-rows: minmax(245px, auto);
+        // grid-template-rows: minmax(245px, auto) minmax(255px, auto);
+        grid-template-rows: minmax(200px, auto) minmax(255px, auto);
+        // grid-auto-rows: minmax(245px, auto);
+        grid-auto-rows: minmax(200px, auto);
         column-gap: 70px;
         row-gap: 20px;
     }
@@ -44,7 +46,8 @@
 
     &__skills {
         display: grid;
-        grid-template: repeat(2, minmax(115px, auto)) / repeat(2, 260px);
+        // grid-template: repeat(2, minmax(115px, auto)) / repeat(2, 260px);
+        grid-template: repeat(2, minmax(115px, auto)) / repeat(2, minmax(260px, auto));
         grid-auto-rows: 1fr;
         column-gap: 50px;
         row-gap: 20px;
