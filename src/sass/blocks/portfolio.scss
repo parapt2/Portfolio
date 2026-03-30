@@ -48,15 +48,16 @@
             // filter: saturate(200%);
 
             span {
-                bottom: 30px;
+                // bottom: 50px;
+                bottom: 40%;
                 opacity: 1;
-                color: #000;
+                color: $main-color-dark;
                 font-size: 18px;
                 transition: .6s ease-in-out;
             }
 
             img {
-                filter: opacity(60%) blur(1px);
+                filter: opacity(30%) blur(1px);
                 transition: .6s ease-in-out;
             }
         }
