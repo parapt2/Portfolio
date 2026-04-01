@@ -91,9 +91,9 @@
             <nav>
                 <ul class="menu__list">
                     <li class="menu__link"><a href="#aboutme">about me</a></li>
-                    <li class="menu__link"><a href="#experience">my experience</a></li>
-                    <li class="menu__link"><a href="#skills">my skills</a></li>
-                    <li class="menu__link"><a href="#portfolio">my works</a></li>
+                    <li class="menu__link"><a href="#experience">education</a></li>
+                    <li class="menu__link"><a href="#skills">skills</a></li>
+                    <li class="menu__link"><a href="#portfolio">potfolio</a></li>
                     <!-- <li class="menu__link"><a href="#prices">pricing</a></li> -->
                     <li class="menu__link"><a href="#contacts">contacts</a></li>
                 </ul>
@@ -274,9 +274,10 @@
                             <div class="resume__item">
                                 <div class="resume__item-head">
                                     <div class="resume__item-icon">
-                                        <img src="/src/icons/experience/courses.svg" alt="courses">
+                                        <img src="/src/icons/experience/certificate.svg" alt="certificate">
                                     </div>
-                                    <h4 class="title title_fz14">Front-End Web Developer (December 2025 - March 2026)</h4>
+                                    <h4 class="title title_fz14">Front-End Web Developer (December 2025 - March 2026)
+                                    </h4>
                                     <div class="resume__item-location">Course provider - Udemy™ Online Courses - by Ivan
                                         Petrychenko</div>
                                 </div>
@@ -315,7 +316,8 @@
                                     <div class="resume__item-icon">
                                         <img src="/src/icons/experience/database.svg" alt="database">
                                     </div>
-                                    <h4 class="title title_fz14">CS50's Introduction to Databases with SQL (March - April 2025)
+                                    <h4 class="title title_fz14">CS50's Introduction to Databases with SQL (March -
+                                        April 2025)
                                     </h4>
                                     <div class="resume__item-location">Course provider - HarvardX • CS50 SQL</div>
                                 </div>
@@ -328,7 +330,8 @@
                                     <div class="resume__item-icon">
                                         <img src="/src/icons/experience/study.svg" alt="study">
                                     </div>
-                                    <h4 class="title title_fz14">Introduction to Computer Science and Programming Using Python (February - March 2025)</h4>
+                                    <h4 class="title title_fz14">Introduction to Computer Science and Programming Using
+                                        Python (February - March 2025)</h4>
                                     <div class="resume__item-location">Course provider - MITx • 6.00.1x</div>
                                 </div>
                                 <!-- <div class="resume__item-body"></div> -->
@@ -340,7 +343,8 @@
                                     <div class="resume__item-icon">
                                         <img src="/src/icons/experience/student.svg" alt="student">
                                     </div>
-                                    <h4 class="title title_fz14">CS50's Introduction to Programming with Python (January - February 2025)</h4>
+                                    <h4 class="title title_fz14">CS50's Introduction to Programming with Python (January
+                                        - February 2025)</h4>
                                     <div class="resume__item-location">Course provider - HarvardX • CS50P</div>
                                 </div>
                                 <!-- <div class="resume__item-body"></div> -->
@@ -352,7 +356,8 @@
                                     <div class="resume__item-icon">
                                         <img src="/src/icons/experience/designer.svg" alt="designer">
                                     </div>
-                                    <h4 class="title title_fz14">CS50's Introduction to Computer Science (September - December 2024)</h4>
+                                    <h4 class="title title_fz14">CS50's Introduction to Computer Science (September -
+                                        December 2024)</h4>
                                     <div class="resume__item-location">Course provider - HarvardX • CS50x</div>
                                 </div>
                                 <!-- <div class="resume__item-body"></div> -->
@@ -612,14 +617,16 @@
                         </div>
 
                         <div class="contacts__textarea">
-                            <textarea name="text" id="text"></textarea>
-                            <label for="text">Your message</label>
+                            <textarea name="message" id="message"></textarea>
+                            <label for="message">Your message</label>
                         </div>
                         <div class="contacts__triggers">
                             <button class="contacts__btn btn">Send Message</button>
                             <div class="contacts__policy">
-                                <input required type="checkbox">
-                                <span>I accept <a href="/policy" target="_blank">Privacy Policy</a></span>
+                                <div>
+                                    <input required type="checkbox" id="checkbox">
+                                    <span>I accept <a href="/policy" target="_blank">Privacy Policy</a></span>
+                                </div>
                             </div>
                         </div>
                     </form>
