@@ -139,6 +139,20 @@
         }
     }
 
+    .portfolio {
+        &__item {
+            &:hover {
+                span {
+                    display: none;
+                }
+
+                img {
+                    filter: none;
+                }
+            }
+        }
+    }
+
     .contacts {
         &__wrapper {
             grid-template-columns: 300px 400px;
@@ -293,7 +307,7 @@
     }
 
     .promo {
-        background: url("../src/img/main_bg.jpg") no-repeat 57%/cover;
+        background: url("/img/main_bg.jpg") no-repeat 57%/cover;
 
         &__btns {
             margin-top: 30px;
@@ -304,12 +318,6 @@
         &__wrapper {
             grid-template: 340px auto auto / 1fr;
         }
-
-        // &__descr {
-        //     .divider {
-        //         margin: 8px 0 0 0;
-        //     }
-        // }
 
         &__skills {
             grid-template-columns: 1fr;
@@ -336,12 +344,6 @@
 
     .contacts {
         padding-bottom: 50px;
-
-        // &__descr {
-        //     .divider {
-        //         margin: 8px 0 0 0;
-        //     }
-        // }
 
         &__form {
             grid-template: 45px 45px 190px minmax(45px, auto) / 1fr;

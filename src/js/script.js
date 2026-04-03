@@ -44,12 +44,10 @@ try {
         .addField('#name', [
             {
                 rule: 'required',
-                // errorMessage: "Please fill the name"
             },
             {
                 rule: 'minLength',
-                value: 2,
-                // errorMessage: "Minimum 2 chars!"
+                value: 1,
             },
         ])
         .addField('#email', [

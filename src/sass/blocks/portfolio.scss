@@ -23,7 +23,6 @@
     }
 
     &__item {
-        // transition: all 0.6s;
         transition: .6s ease-in-out;
         position: relative;
 
@@ -44,11 +43,7 @@
         }
 
         &:hover {
-            // filter: brightness(1.2) blur(1px);
-            // filter: saturate(200%);
-
             span {
-                // bottom: 50px;
                 bottom: 40%;
                 opacity: 1;
                 color: $main-color-dark;

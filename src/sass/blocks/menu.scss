@@ -7,11 +7,6 @@
     height: 21px;
     width: 36px;
     cursor: pointer;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: space-between;
-    // align-items: flex-end;
-
 
     span {
         display: block;
@@ -44,7 +39,6 @@
 
     &__block {
         position: relative;
-        // left: -100%;
         width: 345px;
         background-color: $main-color;
         height: 100%;

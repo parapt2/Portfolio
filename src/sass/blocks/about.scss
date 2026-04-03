@@ -46,7 +46,6 @@
 
     &__skills {
         display: grid;
-        // grid-template: repeat(2, minmax(115px, auto)) / repeat(2, 260px);
         grid-template: repeat(2, minmax(115px, auto)) / repeat(2, minmax(260px, auto));
         grid-auto-rows: 1fr;
         column-gap: 50px;
